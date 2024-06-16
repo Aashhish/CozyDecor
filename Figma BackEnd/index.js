@@ -16,6 +16,13 @@ app.use(express.json())
 app.use("/auth", AuthRouter)
 app.use("/blogs", BlogRouter)
 
+app.use(
+	cors({
+		origin: ["https://emoti-frontend.vercel.app"],
+		methods: ["POST", "GET", "DELETE"],
+		credentials: true,
+	})
+);
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 app.use("/uploads", express.static(join(__dirname,"uploads")))
