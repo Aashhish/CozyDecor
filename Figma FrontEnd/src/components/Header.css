@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@300;600&display=swap');
+
+.HeaderMain{
+    margin-top: 79px;
+}
+
+
+.HeaderFirst{
+    display: flex;
+    background-color: #2d5356;
+    height: 650px;
+    
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Keyframes for slide-in effect */
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .Header-wrap {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1s ease-in-out; /* Apply fade-in animation to the header wrapper */
+  }
+  
+  .Header-line {
+    width: 200px;
+    margin: 15px auto;
+    margin-left: 70px;
+    border: none;
+    height: 2px;
+    background-color: #ffffff;
+    animation: fadeIn 2s ease-in-out; /* Apply fade-in animation */
+  }
+  
+  .Header1 {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-top: 130px;
+    font-family: 'Montserrat', sans-serif;
+    animation: fadeIn 1.5s ease-in-out; /* Apply fade-in animation */
+  }
+  
+  .HeaderTail {
+    font-size: xx-large;
+    margin-left: 70px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    animation: fadeIn 2s ease-in-out; /* Apply fade-in animation */
+  }
+  
+  .HeaderImg {
+    margin-top: 100px;
+    height: 500px;
+    width: 1000px;
+    /* border-radius: 74% 26% 74% 26% / 30% 55% 45% 70%; */
+    border-radius: 42% 58% 64% 36% / 36% 42% 58% 64%;
+
+
+    object-fit: cover;
+    animation: slideIn 1.5s ease-in-out; /* Apply slide-in animation */
+  }
+  
+
+
+.HeaderSec{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.HeaderTitle{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.HeaderPara{
+    margin-top: 30px;
+    margin-right: 450px;
+    font-size: large;
+    
+}

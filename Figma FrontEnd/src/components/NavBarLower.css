@@ -1,0 +1,219 @@
+.LowerNavBar{
+  position: relative;
+    color: #FFFFFF;
+    /* position: fixed; */
+    /* background-color: #ffffff; */
+    /* background-color: #d7e4c0; */
+    /* box-shadow: 4px 6px 13px 0px #d7e4c0; */
+    width: 100%;
+    height: 130px;
+    padding-left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+
+
+.in1{
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 5px;
+  width: 161px;
+  height: 34px;
+  top: 92px;
+  left: 261px;
+  border-color: #01010100;
+  border-radius: 45px;
+  background-color: #F0F1F1;
+  color : #010101;
+
+}
+
+.in1:focus{
+  outline: none;
+  border-color: transparent;
+}
+
+
+.in2{
+  position: absolute;
+  width: 161px;
+  height: 34px;
+  top: 89px;
+  left: 452px;
+  border-color: #01010100;
+  border-radius: 45px;
+  background-color: #F0F1F1;
+  color : #010101;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.in2:focus{
+  outline: none;
+  border-color: transparent;
+}
+
+
+.filter{
+    position: absolute;
+    color: black;
+    width: 43px;
+    height: 17px;
+    top: 95px;
+    left: 175px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  
+
+
+  .txtbox{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    top: 91px;
+    margin-left: 1070px;
+    padding-left: 35px;
+    padding-right: 30px;
+    border-color: #01010100;
+    border-radius: 45px;
+    background-color: #F0F1F1;
+    color : #010101;
+  }
+  
+  
+  .txtbox::placeholder {
+    color: rgb(167, 167, 167);
+  }
+
+  .txtbox:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+    border-color: transparent;
+  }
+
+
+  .suggestions {
+    position: absolute;
+    width: 225px;
+    top: 128px; /* Adjust this according to your layout */
+    margin-left: 1080px; /* Adjust this according to your layout */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    border-radius: 10px;
+    
+  }
+
+  .suggestions::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Styles for the suggestion items */
+  .suggestion-item {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    cursor: pointer;
+    /* border-bottom: 1px solid #eee; */
+    background-color: #fff;
+    color: #797979;
+  }
+  
+  .suggestion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .suggestion-item:hover {
+    color: #000000;
+    font-size: large;
+  }
+  
+  .suggestion-item:active {
+    background-color: #ddd;
+  }
+
+  .picon{
+    position: relative;
+    right: 30px;
+    
+  }
+  .icon{
+    cursor: pointer;
+    position: absolute;
+    color: #010101;
+    left: 1083px;
+    top: 99px;
+    z-index: 1;
+  }
+
+  .line2{
+    position: absolute;
+    width: 51px;
+    top: 89.5px;
+    left: 210px;
+    border: 1px;
+    rotate: 90deg;
+    border: 1px solid #E6E6E6;
+    
+  }
+
+
+
+  .h1{
+    position: absolute;
+    width: 70px;
+    height: 16px;
+    top: 70px;
+    left: 268px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color : #797979;
+  
+  }
+  .h2{
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    top: 70px;
+    left: 455px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color : #797979;
+  
+  }
+  .h3{
+    position: absolute;
+    width: 44px;
+    height: 16px;
+    top: 70px;
+    left: 1045px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color : #797979;
+  }
+
+  

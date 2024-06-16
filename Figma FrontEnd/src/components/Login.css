@@ -1,0 +1,223 @@
+
+
+
+.LoginMain{
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("D:\Chrome Downloads\joanna-kosinska-LAaSoL0LrYs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Login-Main{
+    position: relative;
+    background-position: center;
+    margin-top: 150px;
+    margin-left: 568px ;
+    height: 420px;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.54);
+    background-color: rgba(255, 227, 227, 0.51);
+}
+
+.Login-Header{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.Login-lists{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.Login-labels{
+    margin-bottom: 40px;
+    color: black;
+    height: 20px;
+}
+
+.Login-listitems{
+    position: relative;
+}
+
+
+.Login-Icons{
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 30px;
+
+}  
+
+.Login-input{
+    padding-left: 35px;
+    padding-right: 10px;
+    height: 20px;
+    width: 230px;
+    margin-top: 50px;
+    margin-left: 22px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #aad7d9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Login-Button{
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 125px;
+    height: 50px;
+    width: 150px;
+    font-size: medium;
+    border-radius: 27px;
+    border-style: none;
+    color: #436850;
+    background-color: #aad7d9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.Login-Button:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.Login-Forget{
+    padding-left: 192px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+
+.Login-link{
+    display: flex;
+    align-items: center;
+    margin-left: 85px;
+    
+}
+
+.Login-links{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    
+    
+}
+
+
+
+/* .LoginMain {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("D:\Chrome Downloads\joanna-kosinska-LAaSoL0LrYs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Login-Main {
+    position: relative;
+    background-position: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.54);
+    background-color: rgba(255, 227, 227, 0.51);
+}
+
+@media (min-width: 768px) {
+    .Login-Main {
+        margin-top: 100px;
+    }
+}
+
+.Login-Header {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Login-lists {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Login-labels {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.Login-input {
+    padding-left: 15px;
+    padding-right: 10px;
+    height: 40px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #aad7d9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Login-Button {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 80%;
+    font-size: medium;
+    border-radius: 27px;
+    border-style: none;
+    color: #436850;
+    background-color: #aad7d9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Login-Button:hover {
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.Login-Forget {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.Login-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+
+.Login-Icons {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+@media (min-width: 768px) {
+    .Login-Icons {
+        margin-top: 53px;
+        margin-left: 30px;
+    }
+}
+ */

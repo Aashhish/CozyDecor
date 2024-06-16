@@ -1,0 +1,94 @@
+.NavbarParent{
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+.navbar{
+    color: #FFFFFF;
+    position: fixed;
+    /* background-color: #ffffff; */
+    background-color: #2d5356;
+    box-shadow: 4px 6px 13px 0px #2d5356;
+    width: 100%;
+    height: 80px;
+    padding-left: 0px;
+    top: 0;
+    
+}
+
+
+
+.img{
+    position: absolute;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    padding-top: 0px;
+    padding-left: 115px;
+}
+
+.Profile{
+    height: 32px;
+    width: 115px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 1126px;
+    border-radius: 30px;
+  }
+  
+.img1{
+    position: absolute;
+    color:#AFAFAF;
+    border: 1px;
+    border-color: #d9edbf;
+    width: 60px;
+    height: 60px;
+    border: 1px;
+    text-align: center;
+    border-radius: 50%;
+  
+  }
+
+
+
+  .name{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 83px;
+    height: 16px;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: 'Plus Jakarta Sans';
+    font-size:larger;
+    font-weight: 600;
+    line-height: 16px;
+  
+  }
+
+
+
+  .vector1{
+    position: absolute; 
+    width: 10px;
+    height: 5px;
+    top: 29px;
+    left: 1400px;
+    color: #9a5a5a;
+  
+  
+  }
+  .line1{
+    position: absolute;
+    width: 1510px;
+    top: 68px;
+    border: 1px;
+    color : #E9E9E9;
+    border: 1px solid #E9E9E9
+  }
+
+
+
+  
