@@ -18,8 +18,8 @@ app.use("/blogs", BlogRouter)
 
 app.use(
 	cors({
-		origin: ["https://emoti-frontend.vercel.app"],
-		methods: ["POST", "GET", "DELETE"],
+		origin: ["https://deploy-mern-1whq.vercel.app"],
+		methods: ["POST", "GET", "DELETE", "PUT", "PATCH"],
 		credentials: true,
 	})
 );
