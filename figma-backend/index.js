@@ -18,7 +18,7 @@ app.use("/blogs", BlogRouter)
 
 app.use(
 	cors({
-		origin: ["https://deploy-mern-1whq.vercel.app"],
+		origin: ["https://figma-backend-apis.vercel.app"],
 		methods: ["POST", "GET", "DELETE", "PUT", "PATCH"],
 		credentials: true,
 	})
